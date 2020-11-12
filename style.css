@@ -10,6 +10,7 @@ header{
     height: 10vh;
     border-bottom: 2px solid blue;
     min-width: 600px;
+   
 }
 
 header div{
@@ -129,13 +130,24 @@ float: left;
 
 
 }
+body{
+    background-color: #f9f9f9;
+}
 .des{
+    border-radius: 10px;
     background-color: white;
     width: 39%;
     height: 48vh;
     float: left;
     margin-right: 10px;
     border: 1px solid rgba(140, 140, 140, 0.5);
+    overflow: hidden;
+}
+img:hover{
+    background-size: 120%;
+    transform: scale(1.1);
+    overflow: hidden;
+    
 }
 @media (max-width: 1200px) {
     .des {
@@ -152,7 +164,8 @@ float: left;
     text-decoration: none;
     font-size: 18px;
     font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 @media (max-width: 1200px) {
     .wrap1 a{
@@ -194,6 +207,7 @@ float: left;
     }
   }
 .desc{
+    border-radius: 10px;
     margin-top: 10px;
     background-color: white;
     width: 26%;
@@ -201,6 +215,7 @@ float: left;
     float: left;
     margin-right: 5px;
     border: 1px solid rgba(140, 140, 140, 0.5);
+    overflow: hidden;
 }
 /* @media (max-width: 1440px) {
     .desc {
@@ -210,7 +225,7 @@ float: left;
 .text a{
    
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 28.6px;
     font-size: 16px;
     font-weight: bold;
@@ -332,6 +347,8 @@ float: left;
     }
   }
 .wpis{
+    border-radius: 10px;
+    overflow: hidden;
     margin-top: 10px;
     background-color: white;
     width: 33%;
@@ -426,16 +443,20 @@ float: left;
 }
 .glowa{
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .cialo a{
     color: rgb(91, 119, 253);
     text-decoration: none;
     font-size: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 .foot1 img{
     height: 5%;
     width: 5%;
 }
+
 .foot1{
     margin-bottom: 20px;
 }
@@ -451,6 +472,7 @@ float: left;
     width: 100%;
 }
 .kontkat p{
+    font-family: 'Roboto', sans-serif;
     float: left;
     font-size: 10px;
     margin-right: 5px;
@@ -458,6 +480,7 @@ float: left;
 .kontkat a{
     float: left;
     color: rgb(91, 119, 253);
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size: 10px;
     margin-right: 5px;
@@ -466,11 +489,13 @@ float: left;
     width: 100%;
 }
 .inne p{
+    font-family: 'Roboto', sans-serif;
     float: left;
     font-size: 10px;
     margin-right: 5px;
 }
 .inne a{
+    font-family: 'Roboto', sans-serif;
     float: left;
     color: rgb(91, 119, 253);
     text-decoration: none;
