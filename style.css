@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    width: 70vw;
+    margin:0 auto;
+    height: 10vh;
+    border-bottom: 2px solid blue;
+    min-width: 600px;
+}
+
+header div{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.o2{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-right: 58px;
+    float: left;
+}
+.opis{
+  color: rgb(91, 119, 253);
+  text-decoration: none;
+  margin-top: 20px;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+.look img{
+    
+}
+.look{
+    margin-right: 20px;
+}
+.headermenu{
+    color: rgb(91, 119, 253);
+    font-size: 18px;
+    list-style-type: none;
+   
+}
+}
+.location{
+    float: left;
+    width: 30vw;
+}
+.pogoda{
+    height: 43px;
+    margin-right:10px;
+    float: left;
+    width: 50%;
+}
+.weather{
+    margin-right: 10px;
+    font-size: 8px;
+}
+.description{
+    float:left;
+    width: 50%;
+    
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    float: right;
+    display: inline-block;
+}
+.headermenu{
+    float: left;
+    margin-right: 20px;
+}
+section{
+    padding-top: 20px;
+    
+}
+section div{
+    margin: 0 auto;
+}
+.advertisement{
+    background-color: black;
+    height: 20vh;
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url("img/zdj1.png");
+    background-repeat: no-repeat;
+   background-size: 100%;
+   object-fit: cover;
+   border: 1px solid rgba(140, 140, 140, 0.5);
+}
+@media (max-width: 1240px) {
+    .advertisement {
+      height: 15vh;
+     }
+   }
+a
+.advertisement p{
+    color: white;
+    font-size: 40px;
+}
+.announcements{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 80vw;
+  
+}
+@media (max-width: 1440px) {
+    .announcements {
+       width: 90vw;
+     }
+   }
+.wrap1{
+
+  
+
+}
+.des .img{
+display: inline-block;
+float: left;
+
+
+}
+.des{
+    background-color: white;
+    width: 39%;
+    height: 48vh;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+@media (max-width: 1200px) {
+    .des {
+      height: 40vh;
+    }
+  }
+  @media (max-width: 800px) {
+    .des {
+      height: 38vh;
+    }
+  }
+.wrap1 .text a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 1200px) {
+    .wrap1 a{
+      font-size: 10px;
+    }
+  }
+.image img{
+    width: 100%;
+    
+}
+.text{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text a:hover{
+    text-decoration:underline;
+}
+.refy{
+    margin-top: 20px;
+    background-color: black;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    width: 20%;
+    height: 86vh;
+    float: right;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+@media (max-width: 1200px) {
+    .refy {
+      width: 19%;
+    }
+  }
+  @media (max-width: 800px) {
+    .refy {
+      width: 18%;
+    }
+  }
+.desc{
+    margin-top: 10px;
+    background-color: white;
+    width: 26%;
+    height: 38vh;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+/* @media (max-width: 1440px) {
+    .desc {
+       width: 90vw;
+     }
+   } */
+.text a{
+   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28.6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.ggg{
+    width: 26%;
+    height: 63vh;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    object-fit: cover;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+   
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+.aaaa{
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 25vh;
+    width: 60vw;
+    margin: 10 auto;
+    background-color: black;
+    background-image: url("img/zdj1.png");
+     background-repeat: no-repeat;
+     background-position: center;
+   background-size: 100%;
+   object-fit: cover;
+   border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.wrap2 p{
+    color: rgb(117, 55, 179);
+    font-size: 42px;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0px 8px 10px;
+    width: 100%;
+}
+.wrap2{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 80vw;
+   
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+  
+}
+.baner2{
+    padding-top: 20px;
+    margin: 0 auto;
+   height: 50vh;
+    width: 80vw;
+    background-image: url("img/rtv.png");
+    background-repeat: no-repeat;
+    background-color: black;
+   background-size: 100%;
+   object-fit: cover;
+    background-color: gray;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+  
+}
+.baner2 p{
+    color: white;
+    font-size:80px;
+    padding-bottom: 110px;
+}
+.baner3{
+    background-color: black;
+    background-image: url("img/zdj1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 20vh;
+    width: 60vw;
+    margin: 20px auto;
+    background-color: grey;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.wrap4{
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    
+   
+}
+.artic{
+    
+    width: 80%;
+    float: left;
+}
+.baner4{
+    background-color: black;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 130vh;
+    width: 20%;
+    float: left;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+@media (max-width: 1200px) {
+    .baner4 {
+      width: 19%;
+    }
+  }
+  @media (max-width: 800px) {
+    .baner4 {
+      width: 18%;
+    }
+  }
+.wpis{
+    margin-top: 10px;
+    background-color: white;
+    width: 33%;
+    height: 38vh;
+    float: left;
+    margin-right: 3px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+@media (max-width: 1200px) {
+    .wpis {
+      width: 30%;
+      height: 35vh;
+    }
+  }
+  @media (max-width: 800px) {
+    .wpis {
+      width: 30%;
+      height: 30vh;
+    }
+  }
+  @media (max-width: 1200px) {
+    .wpis a{
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 800px) {
+    .wpis a{
+      font-size: 12px;
+    }
+  }
+.rgb{
+    background-image: linear-gradient(90deg, rgb(48, 35, 174), rgb(83, 160, 253) 48%, rgb(180, 236, 81));
+    height: 90vh;
+}
+.mised{
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    
+   
+}
+.bigtext{
+    color: white;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.przegapione{
+    float: left;
+    width: 80%;
+}
+
+.baner5{
+    width: 20%;
+    background-color: black;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 600px;
+    float: left;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.baner6{
+    margin-top: 20px;
+    width: 60vw;
+    background-image: url("img/zdj3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 40vh;
+}
+.stopka{
+    width: 80vw;
+    margin: 0 auto;
+}
+.fb{
+    float:right;
+    font-size: 12px;
+    bottom: 0;
+    right: 0;
+}
+.techno{
+    float: left;
+    width: 25%;
+    list-style-type: none;
+
+}
+.cialo{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.glowa{
+    font-size: 14px;
+}
+.cialo a{
+    color: rgb(91, 119, 253);
+    text-decoration: none;
+    font-size: 10px;
+}
+.foot1 img{
+    height: 5%;
+    width: 5%;
+}
+.foot1{
+    margin-bottom: 20px;
+}
+.foot2{
+    margin-bottom: 20px;
+}
+.foot3{
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 10vw;
+}
+.kontkat{
+    width: 100%;
+}
+.kontkat p{
+    float: left;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.kontkat a{
+    float: left;
+    color: rgb(91, 119, 253);
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.inne{
+    width: 100%;
+}
+.inne p{
+    float: left;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.inne a{
+    float: left;
+    color: rgb(91, 119, 253);
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 5px;
+}
+button{
+    background-color: white;
+    border: 0;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+button:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    width: 70vw;
+    margin:0 auto;
+    height: 10vh;
+    border-bottom: 2px solid blue;
+}
+header div{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.o2{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-right: 58px;
+    float: left;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+.look img{
+    background-size: 10%;
+}
+.look{
+    margin-right: 20px;
+}
+.headermenu{
+    color: rgb(91, 119, 253);
+    font-size: 18px;
+    list-style-type: none;
+   
+}
+}
+.location{
+    float: left;
+    width: 30vw;
+}
+.pogoda{
+    height: 43px;
+    margin-right:10px;
+    float: left;
+    width: 50%;
+}
+.weather{
+    margin-right: 10px;
+    font-size: 8px;
+}
+.description{
+    float:left;
+    width: 50%;
+    
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    float: right;
+    display: inline-block;
+}
+.headermenu{
+    float: left;
+    margin-right: 20px;
+}
+section{
+    padding-top: 20px;
+    
+}
+section div{
+    margin: 0 auto;
+}
+.advertisement{
+    background-color: black;
+    height: 20vh;
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url("img/zdj1.png");
+    background-repeat: no-repeat;
+   background-size: 100%;
+   object-fit: cover;
+   border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.advertisement p{
+    color: white;
+    font-size: 40px;
+}
+.announcements{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 80vw;
+  
+}
+.wrap1{
+
+  
+
+}
+.des .img{
+display: inline-block;
+float: left;
+
+
+}
+.des{
+    background-color: white;
+    width: 39%;
+    height: 48vh;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.wrap1 .text a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image img{
+    width: 100%;
+    
+}
+.text{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text a:hover{
+    text-decoration:underline;
+}
+.refy{
+    margin-top: 20px;
+    background-color: black;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    width: 20%;
+    height: 86vh;
+    float: right;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.desc{
+    margin-top: 10px;
+    background-color: white;
+    width: 26%;
+    height: 38vh;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.text a{
+   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28.6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.ggg{
+    width: 26%;
+    height: 63vh;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    object-fit: cover;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+   
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+.aaaa{
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 25vh;
+    width: 60vw;
+    margin: 10 auto;
+    background-color: black;
+    background-image: url("img/zdj1.png");
+     background-repeat: no-repeat;
+     background-position: center;
+   background-size: 100%;
+   object-fit: cover;
+   border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.wrap2 p{
+    color: rgb(117, 55, 179);
+    font-size: 42px;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0px 8px 10px;
+    width: 100%;
+}
+.wrap2{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 80vw;
+   
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+  
+}
+.baner2{
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 70vh;
+    width: 80vw;
+    background-image: url("img/rtv.png");
+    background-repeat: no-repeat;
+    background-color: black;
+   background-size: 100%;
+   object-fit: cover;
+    background-color: gray;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+  
+}
+.baner2 p{
+    color: white;
+    font-size:80px;
+    padding-bottom: 110px;
+}
+.baner3{
+    background-color: black;
+    background-image: url("img/zdj1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 20vh;
+    width: 60vw;
+    margin: 20px auto;
+    background-color: grey;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.wrap4{
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    
+   
+}
+.artic{
+    
+    width: 80%;
+    float: left;
+}
+.baner4{
+    background-color: black;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 130vh;
+    width: 20%;
+    float: left;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.wpis{
+    margin-top: 10px;
+    background-color: white;
+    width: 33%;
+    height: 38vh;
+    float: left;
+    margin-right: 3px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.rgb{
+    background-image: linear-gradient(90deg, rgb(48, 35, 174), rgb(83, 160, 253) 48%, rgb(180, 236, 81));
+    height: 90vh;
+}
+.mised{
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    
+   
+}
+.bigtext{
+    color: white;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.przegapione{
+    float: left;
+    width: 80%;
+}
+
+.baner5{
+    width: 20%;
+    background-color: black;
+    background-image: url("img/zdj2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 600px;
+    float: left;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+}
+.baner6{
+    margin-top: 20px;
+    width: 60vw;
+    background-image: url("img/zdj3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+height: 600px;}
