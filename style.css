@@ -18,7 +18,21 @@ header div{
     margin-right: 20px;
     margin-top: 10px;
 }
-
+/* .icon{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    float: left;
+    width: 20%
+} */
+.lewa{
+    float: left;
+    width: 30%;
+}
+.prawa{
+    width: 60%;
+    float: left;
+}
 .o2{
     display: inline-block;
     width: 70px;
@@ -29,7 +43,9 @@ header div{
 .opis{
   color: rgb(91, 119, 253);
   text-decoration: none;
-  margin-top: 20px;
+ text-align: center;
+
+  text-transform: uppercase;
 }
 .logo{
     width: 100%;
@@ -38,22 +54,35 @@ header div{
 .look img{
     
 }
+.icon{
+    /* float: left; */
+    margin: 0 auto;
+    width: 10px;
+    
+   
+}
+svg{
+    width: 32px;
+    height: 29px;
+    fill: rgb(91, 119, 253);
+}
 .look{
     margin-right: 20px;
+   
 }
 .headermenu{
     color: rgb(91, 119, 253);
     font-size: 18px;
     list-style-type: none;
-   
+
+    margin: 0 auto;
+
 }
-.opis{
-   font-size: 18px;
-   text-transform: uppercase;
-}
+
 .menu{
-    padding-top: 20px;
     padding-right: 40px;
+    height: 70px;
+    padding-top: 20px;
 }
 .location{
     float: left;
